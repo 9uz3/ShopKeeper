@@ -1,0 +1,31 @@
+{
+    "produto etc": {
+        "Config": {
+            "name": "produto etc",
+            "desc": "produto",
+            "entrega": "Sim",
+            "icon": "",
+            "banner": ""
+        },
+        "Campos": [
+            {
+                "estoque": [
+                    "porra d caralho"
+                ],
+                "valor": 15,
+                "Nome": "campo etc etc",
+                "desc": "campo",
+                "criado": 1780832035583
+            }
+        ],
+        "Cupom": [],
+        "mensagens": [
+            {
+                "guildid": "1475656781068898376",
+                "channelid": "1513099457208778852",
+                "mesageid": "1513144119722119303"
+            }
+        ],
+        "UltimaReposicao": 1780832116225
+    }
+}

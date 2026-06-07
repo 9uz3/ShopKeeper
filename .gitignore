@@ -1,0 +1,13 @@
+.env
+node_modules/
+logs/
+*.log
+mensagens_antigas.txt
+emojis.json
+json.sqlite
+DataBaseJson/users.json
+DataBaseJson/configauth.json
+DataBaseJson/blacklist.json
+DataBaseJson/backups/
+prompt.txt
+squarecloud.app

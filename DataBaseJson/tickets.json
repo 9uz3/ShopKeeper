@@ -1,0 +1,167 @@
+{
+    "tickets": {
+        "aparencia": {
+            "color": "#00aeff",
+            "banner": "https://cdn.discordapp.com/attachments/1249858017567051867/1264275676102524958/ticket.jpg?ex=669df0ba&is=669c9f3a&hm=0d81c9e9627bc9707e8b15cba78605d51df28070cffb723f59138e7591b36398&",
+            "title": "Entrar em contato com Suporte",
+            "description": "- Após solicitar um atendimento, aguarde um integrante da nossa equipe responde-lo(a). O atendimento é realizado de forma privada, contudo, somente integrantes da equipe terá acesso ao atendimento.\n\n- Atendimento de Segunda a Sexta:[8:00] até [22:30].\n- Atendimento de Final de semana: indefinido!\n\n- Tenha ciência que a nossa equipe não se encontra presente 24 horas por dia, contudo, dentro dos horários citados acima nossa equipe se encontra disponibilizada a atende-lo(a).."
+        },
+        "funcoes": {
+            "Suporte": {
+                "nome": "Suporte",
+                "predescricao": "Preciso de suporte",
+                "descricao": "Atendimento ao clientes & membros.",
+                "banner": "https://cdn.discordapp.com/attachments/1249858017567051867/1264275676102524958/ticket.jpg?ex=66a6827a&is=66a530fa&hm=57646fade6c03dcf6d4466c6c8ce43b5159b59b6683eb3c5cd9b2a008a0f9cd1&"
+            },
+            "suporte": {
+                "nome": "suporte",
+                "predescricao": "asdawd",
+                "descricao": "awda"
+            }
+        },
+        "messageid": [
+            {
+                "msgid": "1245127692181835891",
+                "channelid": "1239025259781554208",
+                "guildid": "978855635032621096"
+            },
+            {
+                "msgid": "1246298445569065003",
+                "channelid": "1246276196455415859",
+                "guildid": "978855635032621096"
+            },
+            {
+                "msgid": "1246299726480019458",
+                "channelid": "1246276196455415859",
+                "guildid": "978855635032621096"
+            },
+            {
+                "msgid": "1246299948857688145",
+                "channelid": "1246276196455415859",
+                "guildid": "978855635032621096"
+            },
+            {
+                "msgid": "1246300400080916564",
+                "channelid": "1246276196455415859",
+                "guildid": "978855635032621096"
+            },
+            {
+                "msgid": "1249879231530405942",
+                "channelid": "1249509933007765518",
+                "guildid": "1249509932613505024"
+            },
+            {
+                "msgid": "1249879377370677253",
+                "channelid": "1249509933007765518",
+                "guildid": "1249509932613505024"
+            },
+            {
+                "msgid": "1250202459641745580",
+                "channelid": "1250189292626776104",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1256382748017430659",
+                "channelid": "1250189292626776104",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1256382971628355607",
+                "channelid": "1250189292626776104",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1256383209290072064",
+                "channelid": "1250189292626776104",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264128459320328243",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264138358620160022",
+                "channelid": "1262194391766925343",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264138723805757523",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264139137435439104",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264139580504936513",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264276033994227742",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264465369821872259",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1264465725221900348",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1266957358081507411",
+                "channelid": "1264124868647977020",
+                "guildid": "1250189025189298226"
+            },
+            {
+                "msgid": "1513094373439701032",
+                "channelid": "1512858070181740717",
+                "guildid": "1475656781068898376"
+            },
+            {
+                "msgid": "1513106212307337278",
+                "channelid": "1512858070181740717",
+                "guildid": "1475656781068898376"
+            },
+            {
+                "msgid": "1513107926447947847",
+                "channelid": "1513099457208778852",
+                "guildid": "1475656781068898376"
+            },
+            {
+                "msgid": "1513109031861092392",
+                "channelid": "1512858070181740717",
+                "guildid": "1475656781068898376"
+            },
+            {
+                "msgid": "1513109929685291119",
+                "channelid": "1512858070181740717",
+                "guildid": "1475656781068898376"
+            },
+            {
+                "msgid": "1513142911137747054",
+                "channelid": "1513099457208778852",
+                "guildid": "1475656781068898376"
+            }
+        ],
+        "categoria": "1513110711763603496",
+        "ativos": {
+            "1513140283863334973": {
+                "userId": "574614424053088267",
+                "type": "Suporte",
+                "status": "open",
+                "priority": "medium",
+                "createdAt": 1780831156237,
+                "claimedBy": null,
+                "messages": 0
+            }
+        }
+    }
+}

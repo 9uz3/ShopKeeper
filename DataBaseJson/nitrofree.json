@@ -1,0 +1,77 @@
+{
+    "1250189025189298226": {
+        "channel_feedback": "1250189297991028817",
+        "feedbacks": [
+            "10/10",
+            "top",
+            "gostei",
+            "loja boa",
+            "10/10 recomendo",
+            "Melhor loja do momento",
+            "Loja Perfeita",
+            "Suporte Otimo",
+            "Recomendo",
+            "Entrega Rapida",
+            "Melhor Preço do Discord",
+            "Excelente atendimento",
+            "Super recomendo",
+            "Produto top",
+            "Entrega super rápida",
+            "Preço imbatível",
+            "Atendimento nota 10",
+            "Loja confiável",
+            "Muito satisfeito",
+            "Serviço impecável",
+            "Loja incrível",
+            "Qualidade garantida",
+            "Atendimento excelente",
+            "Melhor compra",
+            "Serviço rápido"
+        ],
+        "message": {
+            "content": null,
+            "embeds": [
+                {
+                    "description": "<:flay_point:1264131946905337918> Nitro 100% Grátis e Funcional.\n<:flay_point:1264131946905337918> Melhor nitro mensal grátis para resgatar.\n<:flay_point:1264131946905337918> Mais de 3 mil códigos de nitro grátis prontos para uso.\n<:flay_point:1264131946905337918> Nitro funcional, nunca usado.",
+                    "color": 44799,
+                    "author": {
+                        "name": "Nitro Promocional Mensal",
+                        "icon_url": "https://images-ext-1.discordapp.net/external/-cn_VDkybPbU5j4FlBjw0uj-PP2-NCCTmEXvCifTwp4/%3Fsize%3D2048/https/cdn.discordapp.com/icons/1250189025189298226/a_2b929ff97c74e18dc97b55df29ede72e.gif"
+                    },
+                    "footer": {
+                        "text": "Flay Store 🛒 #10K",
+                        "icon_url": "https://images-ext-1.discordapp.net/external/-cn_VDkybPbU5j4FlBjw0uj-PP2-NCCTmEXvCifTwp4/%3Fsize%3D2048/https/cdn.discordapp.com/icons/1250189025189298226/a_2b929ff97c74e18dc97b55df29ede72e.gif"
+                    },
+                    "image": {
+                        "url": "https://media.discordapp.net/attachments/1249858017567051867/1264098003225022544/GIF_Barrinha_flaystore.gif?ex=66a9d181&is=66a88001&hm=ac5e996eb925e7792b2cc6e1b658c51f5de1c3023ccbecff1c4e11dfbbf56e1a&=&width=400&height=125"
+                    }
+                }
+            ],
+            "attachments": []
+        },
+        "button": {
+            "style": 2,
+            "label": "Resgatar Nitro",
+            "emoji": "<a:flay_nitro2:1267980564095434762>"
+        }
+    },
+    "1475656781068898376": {
+        "channel_feedback": "1513099457208778852",
+        "feedbacks": [
+            "10/10",
+            "top",
+            "gostei",
+            "loja boa",
+            "parabéns"
+        ],
+        "message": {
+            "content": "# FEEDBACK\n- Resgate sua recompensa",
+            "embeds": []
+        },
+        "button": {
+            "style": 3,
+            "label": "Resgatar",
+            "emoji": "ðŸŽ"
+        }
+    }
+}

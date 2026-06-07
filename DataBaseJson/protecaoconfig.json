@@ -1,0 +1,17 @@
+{
+  "proteção": {
+    "bloquearLinks": true,
+    "bloquearPalavras": true,
+    "backupServidor": true,
+    "palavrasBloqueadas": [
+      "macaco",
+      "nuds",
+      "scam",
+      "0/10",
+      "scammer",
+      "lotter",
+      "loja ruim",
+      "orrivel"
+    ]
+  }
+}
