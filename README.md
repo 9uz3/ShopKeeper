@@ -254,5 +254,3 @@ Distributed under the **MIT** license.
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FF6B35,100:000000&height=120&section=footer" width="100%"/>
   <br/><br/>
-  <sub>Made by <a href="https://github.com/9uz3">Andriel</a></sub>
-</div>
