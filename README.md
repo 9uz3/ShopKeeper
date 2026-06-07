@@ -1,132 +1,121 @@
 <div align="center">
-
-# 🤖 Flay Store Bot
-
-### Bot de Vendas, Tickets e Verificação para Discord — completo, moderno e modular.
-
-![Discord.js](https://img.shields.io/badge/discord.js-v14.18-%235865F2?logo=discord&logoColor=white)
-![Node](https://img.shields.io/badge/node-%3E%3D18.0-%23339933?logo=node.js&logoColor=white)
-![Licença](https://img.shields.io/badge/licença-MIT-%23FF6B35)
-![Status](https://img.shields.io/badge/status-em%20produ%C3%A7%C3%A3o-%2300C853)
-
----
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FF6B35,100:000000&height=200&section=header&text=ShopKeeper&fontSize=70&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
 </div>
 
-## 📋 Índice
+<h1 align="center">ShopKeeper — Discord Sales, Tickets & Verification Bot</h1>
 
-- [Sobre](#-sobre)
-- [Funcionalidades](#-funcionalidades)
-- [Capturas de Tela](#-capturas-de-tela)
-- [Tecnologias](#-tecnologias)
-- [Como Usar](#-como-usar)
-- [Configuração](#-configuração)
-- [Comandos](#-comandos)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
+<p align="center">
+  <b>Bot multifuncional para Discord — Vendas, Tickets e Verificacao.</b><br/>
+  <sub>Completo, moderno e modular.</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/discord.js-v14.18-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D18.0-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=000" />
+  <img src="https://img.shields.io/badge/Express-4.21-000?style=for-the-badge&logo=express&logoColor=white&labelColor=000" />
+  <img src="https://img.shields.io/badge/license-MIT-FF6B35?style=for-the-badge&labelColor=000" />
+</p>
 
 ---
 
-## 🧠 Sobre
+## Index
 
-O **Flay Store Bot** é um bot multifuncional para Discord desenvolvido em **Discord.js v14** com foco em:
+- [About](#about)
+- [Features](#features)
+- [Technologies](#technologies)
+- [How to Use](#how-to-use)
+- [Configuration](#configuration)
+- [Commands](#commands)
+- [Project Structure](#project-structure)
+- [License](#license)
+
+---
+
+## About
+
+**ShopKeeper** e um bot multifuncional para Discord desenvolvido em **Discord.js v14** com foco em:
 
 - **Loja integrada** com carrinho de compras, estoque e pagamento via **PIX (Mercado Pago)**
 - **Sistema de tickets** completo com painel administrativo
-- **Verificação de usuários** via OAuth2 do Discord
-- **Sistema de cargos por posição** (rankings)
+- **Verificacao de usuarios** via OAuth2 do Discord
+- **Sistema de cargos por posicao** (rankings)
 - **Sistema Nitro Free** com resgate por feedback
 
 ---
 
-## ✨ Funcionalidades
+## Features
 
-### 🛒 Loja & Vendas
-- Produtos com múltiplos campos (variações)
+### Loja & Vendas
+- Produtos com multiplos campos (variacoes)
 - Carrinho de compras interativo
-- Cupons de desconto personalizáveis
+- Cupons de desconto personalizaveis
 - Pagamento via **PIX** (Mercado Pago)
-- Entrega automática de produtos
+- Entrega automatica de produtos
 - Logs de pedidos e vendas
 
-### 🎫 Tickets
-- Criação de tickets com seleção de categoria
-- Painel administrativo com opções de:
+### Tickets
+- Criacao de tickets com selecao de categoria
+- Painel administrativo com opcoes de:
   - Renomear, trancar, reabrir
-  - Adicionar/remover usuários
+  - Adicionar/remover usuarios
   - Fechar com transcript
 - Sistema de prioridades
-- Logs completos de ações
+- Logs completos de acoes
 
-### 🔐 Verificação
-- Autenticação via **OAuth2 do Discord**
-- Atribuição automática de cargo
-- Registro de IP, dispositivo e localização
+### Verificacao
+- Autenticacao via **OAuth2 do Discord**
+- Atribuicao automatica de cargo
+- Registro de IP, dispositivo e localizacao
 - Webhook de logs
-- Integração com sistema de compras (cargo obrigatório)
+- Integracao com sistema de compras (cargo obrigatorio)
 
-### 📊 Extras
-- Painel de administração completo
-- Sistema de posições (rankings por cargo)
+### Extras
+- Painel de administracao completo
+- Sistema de posicoes (rankings por cargo)
 - Sistema de convites (invite tracker)
-- Proteção e moderação
+- Protecao e moderacao
 - Comandos de utilidade
 - Sistema Nitro Free
 
 ---
 
-## 🖼️ Capturas de Tela
+## Technologies
 
-| Painel Principal | Carrinho | Pagamento |
-|:---:|:---:|:---:|
-| ![Painel](https://via.placeholder.com/250x150?text=Painel) | ![Carrinho](https://via.placeholder.com/250x150?text=Carrinho) | ![PIX](https://via.placeholder.com/250x150?text=PIX) |
-
----
-
-## 🛠️ Tecnologias
-
-| Tecnologia | Versão | Finalidade |
-|-----------|--------|------------|
-| [Node.js](https://nodejs.org/) | ≥ 18 | Runtime |
-| [Discord.js](https://discord.js.org/) | 14.18 | API do Discord |
-| [Express](https://expressjs.com/) | 4.21 | Servidor HTTP (OAuth) |
-| [Mercado Pago](https://www.mercadopago.com.br/) | 2.2 | Pagamentos PIX |
-| [quick.db](https://www.npmjs.com/package/quick.db) | 9.1 | Banco de dados local |
-| [wio.db](https://www.npmjs.com/package/wio.db) | 4.0 | Banco de dados JSON |
-| [discord-oauth2](https://www.npmjs.com/package/discord-oauth2) | 2.12 | Autenticação OAuth2 |
+| Technology | Version | Purpose |
+|-----------|---------|---------|
+| [Node.js](https://nodejs.org/) | >= 18 | Runtime |
+| [Discord.js](https://discord.js.org/) | 14.18 | Discord API |
+| [Express](https://expressjs.com/) | 4.21 | HTTP Server (OAuth) |
+| [Mercado Pago](https://www.mercadopago.com.br/) | 2.2 | PIX Payments |
+| [quick.db](https://www.npmjs.com/package/quick.db) | 9.1 | Local database |
+| [wio.db](https://www.npmjs.com/package/wio.db) | 4.0 | JSON database |
+| [discord-oauth2](https://www.npmjs.com/package/discord-oauth2) | 2.12 | OAuth2 Authentication |
 
 ---
 
-## 🚀 Como Usar
+## How to Use
 
-### Pré-requisitos
+### Prerequisites
 
 - Node.js **18+**
-- Um bot no [Discord Developer Portal](https://discord.com/developers/applications)
+- A bot on the [Discord Developer Portal](https://discord.com/developers/applications)
 - Conta no [Mercado Pago](https://www.mercadopago.com.br/) (para vendas)
 
-### Instalação
+### Installation
 
 ```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/flay-store-bot.git
-
-# Acesse a pasta
-cd flay-store-bot
-
-# Instale as dependências
+git clone https://github.com/9uz3/ShopKeeper.git
+cd ShopKeeper
 npm install
 ```
 
-### Configuração Rápida
+### Quick Setup
 
 ```bash
-# Crie o arquivo de ambiente
 cp .env.example .env
 ```
 
-Edite o arquivo **`.env`**:
+Edit the **`.env`** file:
 
 ```env
 TOKEN=seu_token_do_bot_aqui
@@ -134,9 +123,9 @@ OWNER_ID=seu_id_do_discord_aqui
 MP_API_KEY=sua_chave_do_mercado_pago_aqui
 ```
 
-### Configurar Autenticação OAuth2
+### Configure OAuth2 Authentication
 
-Edite **`DataBaseJson/configauth.json`**:
+Edit **`DataBaseJson/configauth.json`**:
 
 ```json
 {
@@ -155,7 +144,7 @@ No **Discord Developer Portal**, adicione a URL de redirect:
 https://seudominio.com/auth/callback
 ```
 
-### Iniciar
+### Start
 
 ```bash
 npm start
@@ -163,40 +152,40 @@ npm start
 
 ---
 
-## ⚙️ Configuração
+## Configuration
 
-### Via Painel (Recomendado)
+### Via Panel (Recommended)
 
-Use o comando `/painel` no Discord para acessar o painel de administração completo:
+Use o comando `/painel` no Discord para acessar o painel de administracao completo:
 
-| Botão | Função |
-|-------|--------|
-| 🛒 **Loja** | Gerenciar produtos, estoque, posições |
-| 🎫 **Ticket** | Configurar sistema de tickets |
-| 👋 **Boas Vindas** | Mensagens de boas-vindas e antifake |
-| ⚙️ **Ações** | Cargos e canais automáticos |
-| 🎨 **Personalizar** | Cores e aparência do bot |
-| ☁️ **eCloud** | Configurar OAuth2 e verificação |
-| 💰 **Rendimento** | Estatísticas de vendas |
-| 🔧 **Definições** | Configurações gerais |
+| Button | Function |
+|--------|----------|
+| **Loja** | Gerenciar produtos, estoque, posicoes |
+| **Ticket** | Configurar sistema de tickets |
+| **Boas Vindas** | Mensagens de boas-vindas e antifake |
+| **Acoes** | Cargos e canais automaticos |
+| **Personalizar** | Cores e aparencia do bot |
+| **eCloud** | Configurar OAuth2 e verificacao |
+| **Rendimento** | Estatisticas de vendas |
+| **Definicoes** | Configuracoes gerais |
 
 ---
 
-## 📁 Comandos
+## Commands
 
-### Administração
+### Administration
 
-| Comando | Descrição |
-|---------|-----------|
-| `/painel` | Abre o painel de administração |
-| `/verify` | Envia botão de verificação OAuth2 |
-| `/dm` | Envia mensagem direta a um usuário |
+| Command | Description |
+|---------|-------------|
+| `/painel` | Abre o painel de administracao |
+| `/verify` | Envia botao de verificacao OAuth2 |
+| `/dm` | Envia mensagem direta a um usuario |
 | `/say` | Envia mensagem como o bot |
 | `/lock` | Tranca um canal |
 | `/unlock` | Destranca um canal |
-| `/perm_add` | Adiciona permissão a um usuário |
-| `/perm_remove` | Remove permissão de um usuário |
-| `/perm_list` | Lista usuários com permissão |
+| `/perm_add` | Adiciona permissao a um usuario |
+| `/perm_remove` | Remove permissao de um usuario |
+| `/perm_list` | Lista usuarios com permissao |
 | `/close_ticket` | Fecha um ticket manualmente |
 | `/vincular_clientes` | Vincula clientes |
 | `/entregar` | Entrega manual de produto |
@@ -207,25 +196,25 @@ Use o comando `/painel` no Discord para acessar o painel de administração comp
 | `/remove_mass_coupon` | Remover cupons em massa |
 | `/ganerate_pix` | Gerar QR Code PIX |
 
-### Usuários
+### Users
 
-| Comando | Descrição |
-|---------|-----------|
-| `/profile` | Exibe perfil do usuário |
+| Command | Description |
+|---------|-------------|
+| `/profile` | Exibe perfil do usuario |
 | `/rank` | Exibe ranking de vendas |
 
 ---
 
-## 📂 Estrutura do Projeto
+## Project Structure
 
 ```
-BotV2/
-├── ComandosSlash/          # Comandos de barra (/) do Discord
-│   ├── Administracao/      # Comandos administrativos
-│   ├── ContextMenus/       # Menus de contexto
-│   └── Usuarios/           # Comandos de usuário
-├── DataBaseJson/           # Banco de dados JSON
-├── Eventos/                # Eventos do Discord
+ShopKeeper/
+├── ComandosSlash/          # Slash commands
+│   ├── Administracao/      # Admin commands
+│   ├── ContextMenus/       # Context menus
+│   └── Usuarios/           # User commands
+├── DataBaseJson/           # JSON database
+├── Eventos/                # Discord events
 │   ├── Sistema De Configuracao/
 │   ├── Sistema De Handlers/
 │   ├── Sistema De Invites/
@@ -234,21 +223,21 @@ BotV2/
 │   ├── Sistema Nitro Free/
 │   ├── Sistemas Automaticos/
 │   └── teste/
-├── Functions/              # Funções e lógica do bot
-├── Handler/                # Handlers de eventos e comandos
-├── Lib/                    # Bibliotecas auxiliares
-├── routes/                 # Rotas HTTP (Express)
-│   ├── callback.js         # Callback OAuth2
-│   └── login.js            # Login OAuth2
-├── src/                    # Código-fonte principal
-│   ├── config/             # Configurações
-│   ├── constants/          # Constantes
-│   ├── database/           # Conexão com banco
-│   ├── events/             # Eventos src
-│   ├── handlers/           # Handlers src
-│   ├── services/           # Serviços (tickets, segurança, etc.)
-│   └── utils/              # Utilitários
-├── config.js               # Configuração principal (token, API keys)
+├── Functions/              # Bot logic
+├── Handler/                # Event and command handlers
+├── Lib/                    # Libraries
+├── routes/                 # HTTP routes (Express)
+│   ├── callback.js         # OAuth2 callback
+│   └── login.js            # OAuth2 login
+├── src/                    # Main source code
+│   ├── config/             # Configurations
+│   ├── constants/          # Constants
+│   ├── database/           # Database connection
+│   ├── events/             # Events
+│   ├── handlers/           # Handlers
+│   ├── services/           # Services (tickets, security, etc.)
+│   └── utils/              # Utilities
+├── config.js               # Main config (token, API keys)
 ├── index.js                # Entrypoint
 ├── package.json
 └── README.md
@@ -256,26 +245,14 @@ BotV2/
 
 ---
 
-## 🤝 Contribuição
+## License
 
-Contribuições são bem-vindas! Siga os passos:
-
-1. **Fork** o projeto
-2. Crie uma **branch** (`git checkout -b feature/minha-feature`)
-3. **Commit** suas mudanças (`git commit -m 'feat: minha nova feature'`)
-4. **Push** para a branch (`git push origin feature/minha-feature`)
-5. Abra um **Pull Request**
-
----
-
-## 📄 Licença
-
-Distribuído sob a licença **MIT**. Veja [LICENSE](LICENSE) para mais informações.
+Distributed under the **MIT** license.
 
 ---
 
 <div align="center">
-
-Feito com ❤️ por [Andriel](https://github.com/9uz3)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FF6B35,100:000000&height=120&section=footer" width="100%"/>
+  <br/><br/>
+  <sub>Made by <a href="https://github.com/9uz3">Andriel</a></sub>
 </div>
